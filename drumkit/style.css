@@ -1,0 +1,39 @@
+body{
+    background-color: #353839;
+    margin-top: 25vh;
+}
+
+.keys{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+    gap: 30px;
+}
+
+.key{
+    transition: all 0.07s;
+    background-color: #FFFFF0;
+    width: 25vw;
+    max-width: 143px;
+    min-width: max-content;
+    max-height: 80px;
+    height: 12vw;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15%;
+    border-color: darkgray;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.playing{
+    transform: scale(1.15);
+    border-radius: 5%;
+    border-color:darkgreen;
+    border-width: 5px;
+    border-style: solid;
+}
